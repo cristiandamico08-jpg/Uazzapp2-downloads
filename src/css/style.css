@@ -3,16 +3,17 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.51), rgba(255, 255, 255, 0.51)), url('../../assets/img/icon.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), url('../../assets/img/icon.png');
     background-size: 10%;
     background-repeat: repeat;
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
 #header {
     background-color: rgba(0, 0, 0, 0.366);
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
 }
 
 #header h1 {
@@ -23,7 +24,7 @@ body {
 .grigliaDownload {
     display: flex;
     justify-content: space-between;
-    color: rgb(0, 0, 0);
+    color: white;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -41,11 +42,11 @@ body {
 
 .bottoniWindows button {
     width: 50%;
-    background-color: rgb(255, 255, 255);
-    border: 3px solid #0EB92F;
+    background-color: #181A1B;
+    border: 3px solid #0EB62E;
     font-size: 20px;
     height: 60px;
-    color: #0EB92F;
+    color: #0EB62E;
     cursor: pointer;
     border-radius: 15px;
     margin-bottom: 2px;
@@ -53,22 +54,22 @@ body {
 
 .bottoniWindows button:hover {
     width: 50%;
-    background-color: rgb(178, 178, 178);
-    border: 3px solid #0EB92F;
+    background-color: #383d3f;
+    border: 3px solid #0EB62E;
     font-size: 20px;
     height: 60px;
-    color: #0EB92F;
+    color: #0EB62E;
     cursor: pointer;
     border-radius: 15px;
 }
 
 .bottoniWindows button:active {
     width: 50%;
-    background-color: #0EB92F;
-    border: 3px solid rgb(255, 255, 255);
+    background-color: #0EB62E;
+    border: 3px solid #181A1B;
     font-size: 20px;
     height: 60px;
-    color: rgb(255, 255, 255);
+    color: white;
     cursor: pointer;
     border-radius: 15px;
 }
@@ -77,7 +78,7 @@ body {
     color: white;
     background-color: rgba(0, 0, 0, 0.366);
     margin-top: auto;
-    border-top: 3px solid black;
+    border-top: 3px solid white;
 }
 
 #testo {
