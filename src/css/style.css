@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.51), rgba(255, 255, 255, 0.51)), url('../../assets/img/icon.png');
+    background-size: 10%;
+    background-repeat: repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: rgba(0, 0, 0, 0.366);
+    border-bottom: 3px solid black;
+}
+
+#header h1 {
+    color: white;
+    text-align: center;
+}
+
+.grigliaDownload {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#logoWindows {
+    width: 25%;
+}
+
+.windowsBox {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-right: 5%;
+}
+
+.bottoniWindows button {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #0EB92F;
+    font-size: 20px;
+    height: 60px;
+    color: #0EB92F;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-bottom: 2px;
+}
+
+.bottoniWindows button:hover {
+    width: 50%;
+    background-color: rgb(178, 178, 178);
+    border: 3px solid #0EB92F;
+    font-size: 20px;
+    height: 60px;
+    color: #0EB92F;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.bottoniWindows button:active {
+    width: 50%;
+    background-color: #0EB92F;
+    border: 3px solid rgb(255, 255, 255);
+    font-size: 20px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#footer {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.366);
+    margin-top: auto;
+    border-top: 3px solid black;
+}
+
+#testo {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
