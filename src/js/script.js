@@ -15,7 +15,7 @@ document.getElementById('downloadChatServer').addEventListener('click', ()=>{
 
 document.getElementById('downloadJavaWindows').addEventListener('click', ()=>{
     const link = document.createElement('a');
-    link.href = 'https://download.oracle.com/java/25/latest/jdk-25_windows-x64_bin.exe';
-    link.download = 'jdk-25_windows-x64_bin.exe';
+    link.setAttribute("target", "_blank");
+    link.href = 'https://www.oracle.com/it/java/technologies/downloads/#jdk26-windows';
     link.click();
 });
